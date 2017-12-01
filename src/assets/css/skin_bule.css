@@ -1,0 +1,6 @@
+@charset "UTF-8";
+
+.login{
+  background: url("../img/login_back1.png") no-repeat;
+  background-size: cover;
+}

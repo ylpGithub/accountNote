@@ -1,0 +1,160 @@
+@charset "UTF-8";
+
+body,html{
+  height: 100%;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+ul li{
+  list-style: none;
+}
+
+a{
+  color: #9d9d9d !important;
+}
+
+/*公共样式*/
+.position-abt{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.fixed-top{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.fixed-btm{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.position-rel{
+  position: relative;
+}
+
+.text-left{
+  text-align: left;
+}
+
+.text-right{
+  text-align: right;
+}
+
+.pd-r20{
+  padding-right: 20px;
+}
+
+.pd-l20{
+  padding-left: 20px;
+}
+
+.ln-ht35{
+  line-height: 35px;
+}
+
+.ft-px20{
+  font-size: 20px;
+}
+
+.ft-px18{
+  font-size: 20px;
+}
+
+.ft-px16{
+  font-size: 20px;
+}
+
+.color-white{
+  color: #fff;
+}
+
+
+/*修改样式*/
+.hintText{
+  text-align: left;
+}
+
+.mu-text-field{
+  width: 100%;
+}
+
+.mu-buttom-item{
+  min-width: 60px !important;
+}
+
+/*app页面样式*/
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+}
+
+.login{
+  width: 100%;
+  height: 16em;
+}
+
+.login-form{
+  margin: 14em 20px auto 20px;
+  background: #fff;
+  box-shadow: 0 10px 20px 3px rgba(160, 166, 189, 0.35);
+  border-radius: 10px;
+  padding: 3em 30px 3em 10px;
+}
+
+
+
+
+/*不同屏幕手机设置*/
+@media screen and (max-width: 321px){
+  .login {
+    height: 16em;
+  }
+  .login-form{
+    margin: 14em 20px auto 20px;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 376px){
+  .login {
+    height: 20em;
+  }
+  .login-form{
+    margin: 18em 20px auto 20px;
+  }
+}
+
+@media screen and (min-width: 376px) and (max-width: 415px){
+  .login {
+    height: 22em;
+  }
+  .login-form{
+    margin: 19em 20px auto 20px;
+  }
+}
+
+@media screen and (min-width: 415px) and (max-width: 769px){
+  .login {
+    height: 36em;
+  }
+  .login-form{
+    margin: 33em 20px auto 20px;
+  }
+}
+
+@media screen and (min-width: 769px){
+  .login {
+    height: 50em;
+  }
+  .login-form{
+    margin: 48em 20px auto 20px;
+  }
+}
